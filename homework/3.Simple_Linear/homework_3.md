@@ -1,4 +1,4 @@
-HOMEWORK FOR SIMPLE LINEAR REGRESSION
+## HOMEWORK FOR SIMPLE LINEAR REGRESSION
 
 There are two components to the homework this week.
 
