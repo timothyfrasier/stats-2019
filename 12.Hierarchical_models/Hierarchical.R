@@ -92,9 +92,7 @@ modelstring = "
     real b1[nxLevels];              // Coefficients for effects of being in each level
     real<lower=0> sigma[nxLevels];  // Coefficients for sd of being in each level
     real shopMean;                  // Mean wait time across all shops
-    real shopMeanSD;                // sd for mean wait time across all shops
-    real shopSDMean;                // Mean sd across all shops
-    real shopSDSD;                  // sd for the sd across all shops
+    real<lower=0> shopMeanSD;       // sd for mean wait time across all shops
   }
 
   model {
